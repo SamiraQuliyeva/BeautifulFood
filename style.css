@@ -20,6 +20,9 @@ header {
 header .imgbox {
   width: 40px;
 }
+header .icon {
+  display: none;
+}
 header nav a {
   font-size: 20px;
   color: #8c8999;
@@ -27,6 +30,23 @@ header nav a {
 }
 header nav .home-color {
   color: #74bebc;
+}
+@media screen and (max-width: 992px) {
+  header .menu a {
+    display: none;
+  }
+  header .menu .icon {
+    display: block;
+    background-color: #e4e0e0;
+    display: flex;
+    margin-left: 56px;
+  }
+  header .menu .icon i {
+    margin: 10px;
+  }
+  header .menu .imgbox {
+    margin-right: 94px;
+  }
 }
 
 #beautiful {
