@@ -17,35 +17,55 @@ section {
 header {
   padding: 20px 0;
 }
-header .imgbox {
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menu .imgbox {
   width: 40px;
 }
-header .icon {
-  display: none;
-}
-header nav a {
+header .menu a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
-header nav .home-color {
+header .menu .home-color {
   color: #74bebc;
 }
+header .menu .icon, header .menu .bigicon {
+  display: none;
+}
 @media screen and (max-width: 992px) {
+  header .menu {
+    height: 70px;
+  }
   header .menu a {
     display: none;
   }
   header .menu .icon {
     display: block;
     background-color: #e4e0e0;
-    display: flex;
-    margin-left: 56px;
+    margin-left: 44px;
   }
   header .menu .icon i {
     margin: 10px;
   }
   header .menu .imgbox {
-    margin-right: 94px;
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  header .bigicon, header .icon {
+    display: block;
+  }
+  header .bigicon {
+    background-color: #35b9be;
+    color: white;
+    margin-left: 65px;
+  }
+  header .bigicon i {
+    margin: 10px;
   }
 }
 
