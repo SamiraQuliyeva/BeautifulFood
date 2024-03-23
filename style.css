@@ -98,8 +98,15 @@ header .icon, header .bigicon {
 }
 @media screen and (max-width: 992px) {
   #beautiful .box h1 {
+    text-align: center;
     font-size: 48px;
-    margin: 95px 15px;
+    margin: 93px -22px;
+  }
+  #beautiful .box h5 {
+    margin: 23px 0;
+  }
+  #beautiful .box .imgbox {
+    width: 40px;
   }
 }
 
