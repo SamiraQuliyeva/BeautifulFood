@@ -17,28 +17,23 @@ section {
 header {
   padding: 20px 0;
 }
-header .menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-header .menu .imgbox {
+header .imgbox {
   width: 40px;
 }
-header .menu a {
+header nav a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
-header .menu .home-color {
+header nav .home-color {
   color: #74bebc;
 }
-header .menu .icon, header .menu .bigicon {
+header .icon, header .bigicon {
   display: none;
 }
 @media screen and (max-width: 992px) {
   header .menu {
-    height: 70px;
+    width: 100%;
   }
   header .menu a {
     display: none;
@@ -46,7 +41,7 @@ header .menu .icon, header .menu .bigicon {
   header .menu .icon {
     display: block;
     background-color: #e4e0e0;
-    margin-left: 44px;
+    margin-left: 99px;
   }
   header .menu .icon i {
     margin: 10px;
@@ -56,13 +51,14 @@ header .menu .icon, header .menu .bigicon {
   }
 }
 @media screen and (max-width: 576px) {
-  header .bigicon, header .icon {
+  header .icon {
     display: block;
   }
   header .bigicon {
+    display: block;
     background-color: #35b9be;
     color: white;
-    margin-left: 65px;
+    margin-right: -58px;
   }
   header .bigicon i {
     margin: 10px;
