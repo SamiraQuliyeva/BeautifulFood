@@ -96,6 +96,12 @@ header .icon, header .bigicon {
 #beautiful .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 992px) {
+  #beautiful .box h1 {
+    font-size: 48px;
+    margin: 95px 15px;
+  }
+}
 
 #thehome {
   background-color: #f1f8f9;
