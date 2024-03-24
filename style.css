@@ -97,16 +97,16 @@ header .icon, header .bigicon {
   font-size: 20px;
 }
 @media screen and (max-width: 992px) {
+  #beautiful .box {
+    padding: 0 99px;
+    margin: 0 99px;
+  }
   #beautiful .box h1 {
-    text-align: center;
     font-size: 48px;
-    margin: 93px -22px;
+    margin: 34px 0;
   }
   #beautiful .box h5 {
-    margin: 23px 0;
-  }
-  #beautiful .box .imgbox {
-    width: 40px;
+    margin: 55px 0;
   }
 }
 
