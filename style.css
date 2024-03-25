@@ -35,13 +35,13 @@ header .icon, header .bigicon {
   header .menu {
     width: 100%;
   }
-  header .menu a {
+  header .menu nav a {
     display: none;
   }
   header .menu .icon {
     display: block;
     background-color: #e4e0e0;
-    margin-left: 99px;
+    margin-left: 33px;
   }
   header .menu .icon i {
     margin: 10px;
@@ -50,7 +50,7 @@ header .icon, header .bigicon {
     margin-left: 24px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   header .icon {
     display: block;
   }
@@ -58,7 +58,6 @@ header .icon, header .bigicon {
     display: block;
     background-color: #35b9be;
     color: white;
-    margin-right: -58px;
   }
   header .bigicon i {
     margin: 10px;
@@ -95,19 +94,6 @@ header .icon, header .bigicon {
 }
 #beautiful .box h4 {
   font-size: 20px;
-}
-@media screen and (max-width: 992px) {
-  #beautiful .box {
-    padding: 0 99px;
-    margin: 0 99px;
-  }
-  #beautiful .box h1 {
-    font-size: 48px;
-    margin: 34px 0;
-  }
-  #beautiful .box h5 {
-    margin: 55px 0;
-  }
 }
 
 #thehome {
