@@ -95,6 +95,35 @@ header .icon, header .bigicon {
 #beautiful .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 992px) {
+  #beautiful .box {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: text-left;
+    margin-left: 182px;
+  }
+  #beautiful .box h1 {
+    font-size: 48px;
+    margin: 0 42px;
+  }
+  #beautiful .box h5 {
+    font-size: 22px;
+    margin: 74px 14px;
+  }
+  #beautiful .box .btn {
+    padding: 13px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  #beautiful .imgbox {
+    position: absolute;
+    left: 33px;
+    bottom: 33px;
+    width: 120px;
+  }
+}
+
 #thehome {
   background-color: #f1f8f9;
 }
